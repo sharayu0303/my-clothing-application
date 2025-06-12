@@ -3,9 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{78E5E60C-CDE1-43AC-B7D4-A5773F18263F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{E200D416-B118-4B0D-8B90-1D3624B402AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{B223B270-C356-4930-B3CA-3219EACBCB26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cart", "Cart", "{AD351ECA-E6F7-42FD-9C69-20629E4AA12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.Product.Domain", "Clothify.Product.Domain\Clothify.Product.Domain.csproj", "{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.Product.Application", "Clothify.Product.Application\Clothify.Product.Application.csproj", "{0F57A65E-67C2-43FC-B45C-66FF5BF7F412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.Product.Infrastructure", "Clothify.Product.Infrastructure\Clothify.Product.Infrastructure.csproj", "{63A04159-7C53-4C9A-87DB-905096058C19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.Product.API", "Clothify.Product.API\Clothify.Product.API.csproj", "{2690F2DE-8C5B-47F5-8CAC-35B3491804A9}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F57A65E-67C2-43FC-B45C-66FF5BF7F412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F57A65E-67C2-43FC-B45C-66FF5BF7F412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F57A65E-67C2-43FC-B45C-66FF5BF7F412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F57A65E-67C2-43FC-B45C-66FF5BF7F412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63A04159-7C53-4C9A-87DB-905096058C19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63A04159-7C53-4C9A-87DB-905096058C19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63A04159-7C53-4C9A-87DB-905096058C19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63A04159-7C53-4C9A-87DB-905096058C19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2690F2DE-8C5B-47F5-8CAC-35B3491804A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2690F2DE-8C5B-47F5-8CAC-35B3491804A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2690F2DE-8C5B-47F5-8CAC-35B3491804A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2690F2DE-8C5B-47F5-8CAC-35B3491804A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A92D663C-CC2A-4090-9FAC-ECB1ED9F31A6} = {78E5E60C-CDE1-43AC-B7D4-A5773F18263F}
+		{0F57A65E-67C2-43FC-B45C-66FF5BF7F412} = {78E5E60C-CDE1-43AC-B7D4-A5773F18263F}
+		{63A04159-7C53-4C9A-87DB-905096058C19} = {78E5E60C-CDE1-43AC-B7D4-A5773F18263F}
+		{2690F2DE-8C5B-47F5-8CAC-35B3491804A9} = {78E5E60C-CDE1-43AC-B7D4-A5773F18263F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3E1D51CE-C3EE-4F22-BCD4-4B96ED8F092B}

@@ -1,0 +1,6 @@
+@Clothify.Product.API_HostAddress = http://localhost:5201
+
+GET {{Clothify.Product.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
