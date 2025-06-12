@@ -5,8 +5,6 @@ VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Product", "Product", "{78E5E60C-CDE1-43AC-B7D4-A5773F18263F}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{E200D416-B118-4B0D-8B90-1D3624B402AE}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{B223B270-C356-4930-B3CA-3219EACBCB26}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cart", "Cart", "{AD351ECA-E6F7-42FD-9C69-20629E4AA12E}"
@@ -25,7 +23,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.User.Application",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.User.Infrastructure", "Clothify.User.Infrastructure\Clothify.User.Infrastructure.csproj", "{B724822A-6403-424D-AC80-F49642EB45C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clothify.User.API", "Clothify.User.API\Clothify.User.API.csproj", "{92C9B3CA-97E7-411E-B405-CAC8B6C687E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clothify.User.API", "Clothify.User.API\Clothify.User.API.csproj", "{92C9B3CA-97E7-411E-B405-CAC8B6C687E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Order", "Order", "{F4C58504-4BB3-40F0-8CDB-6C45508E4582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
