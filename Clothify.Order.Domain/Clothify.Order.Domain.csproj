@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3FF86194-8667-4A9B-835D-A45852692405}</ProjectGuid>
+    <ProjectGuid>{0F5042B9-C72D-46AC-84FF-BF48FD06DFB0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Clothify.Order.Domain</RootNamespace>
@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\OrderDto.cs" />
+    <Compile Include="Entities\OrderEntity.cs" />
     <Compile Include="Interfaces\IOrderRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

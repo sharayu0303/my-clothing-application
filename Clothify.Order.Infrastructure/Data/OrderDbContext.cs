@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Clothify.Order.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +11,7 @@ namespace Clothify.Order.Infrastructure.Data
     public class OrderDbContext : DbContext
     {
         public OrderDbContext(DbContextOptions<OrderDbContext> options) : base(options) { }
-     
-       public DbSet<OrderEntity> Orders { get; set; }
+        
+        public DbSet<OrderEntity> Orders { get; set; }
     }
 }

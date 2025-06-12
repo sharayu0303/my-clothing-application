@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{9A530B31-4F4A-492B-8C8D-34DB20670823}</ProjectGuid>
+    <ProjectGuid>{E7E07FE5-380A-4FD9-AE43-69C32265D9FA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Clothify.Order.Application</RootNamespace>
@@ -41,14 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTOS\OrderDto.cs" />
+    <Compile Include="DTOs\OrderDto.cs" />
     <Compile Include="Interfaces\IOrderService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\OrderService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Clothify.Order.Domain.csproj">
-      <Project>{7a647b4b-a938-4f9a-ba24-48fb1b4b6e96}</Project>
+    <ProjectReference Include="..\Clothify.Order.Domain\Clothify.Order.Domain.csproj">
+      <Project>{0f5042b9-c72d-46ac-84ff-bf48fd06dfb0}</Project>
       <Name>Clothify.Order.Domain</Name>
     </ProjectReference>
   </ItemGroup>

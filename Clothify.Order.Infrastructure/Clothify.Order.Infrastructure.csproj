@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5A50979-D1C9-4EFD-8B01-AF0FEE9764A3}</ProjectGuid>
+    <ProjectGuid>{3526C34A-44F5-47C0-86BC-13D4F827221A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Clothify.Order.Infrastructure</RootNamespace>
@@ -157,23 +157,21 @@
   <ItemGroup>
     <Compile Include="Data\OrderDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\OrderRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Clothify.Order.Application\Clothify.Order.Application.csproj">
-      <Project>{9a530b31-4f4a-492b-8c8d-34db20670823}</Project>
+      <Project>{e7e07fe5-380a-4fd9-ae43-69c32265d9fa}</Project>
       <Name>Clothify.Order.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Clothify.Order.Application\Clothify.Order.Domain.csproj">
-      <Project>{7a647b4b-a938-4f9a-ba24-48fb1b4b6e96}</Project>
+    <ProjectReference Include="..\Clothify.Order.Domain\Clothify.Order.Domain.csproj">
+      <Project>{0f5042b9-c72d-46ac-84ff-bf48fd06dfb0}</Project>
       <Name>Clothify.Order.Domain</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Repositories\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets" Condition="Exists('..\packages\Microsoft.Data.SqlClient.SNI.1.1.0\build\net46\Microsoft.Data.SqlClient.SNI.targets')" />

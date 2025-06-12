@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clothify.Order.Application.DTOS
+namespace Clothify.Order.Application.DTOs
 {
     public class OrderDto
     {
